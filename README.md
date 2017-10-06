@@ -1,17 +1,17 @@
-LearnCoin - an educational cryptocurrency based on SmallChange.
+PlutusCoin - an educational cryptocurrency based on SmallChange.
 In this version there are no direct changes to block targets, etc.
 Any changes are left up to the user. SmallChange information can be found below.
 I don't take any credit for the SMC source codes, barring the few changes I have made. 
-All credit goes to the creator of SMC and Litecoin.
+All credit goes to the creator of SMC and Plutuscoin.
 You can find a writeup of this project here:
-http://www.ocf.berkeley.edu/~baisang/LearnCoin.pdf
+http://www.ocf.berkeley.edu/~baisang/PlutusCoin.pdf
 which details the process of using this repository to create your own altcoin,
 or simply just understanding how cryptocurrencies work in general.
 
 ==================================================================
 
 
-SmallChange (SMC) - a 'faster' version of Litecoin which also uses scrypt
+SmallChange (SMC) - a 'faster' version of Plutuscoin which also uses scrypt
 as a proof of work scheme and is intended for microtransactions.
  - 15 seconds block targets: beat that MinCoin! ;)
  - 42 007 680 total coins
@@ -21,19 +21,19 @@ as a proof of work scheme and is intended for microtransactions.
  - currently peers are looked up over IRC only
  - currently no block checkpoints are in the code (but could be easily
    added)
-Other than that, this coin is exactly like Litecoin and should by no
+Other than that, this coin is exactly like Plutuscoin and should by no
 means be used as a real cryptocurrency. All of the coin parameters
 are chosen arbitrarily or at most with 'fairness' towards everyone in mind.
 
 So actually, this 'new' coin exists for the following reasons:
- - SMC proves that really anyone(!) can start a Litecoin/Bitcoin based currency
-    (just look at the changes I applied to the original Litecoin source,
+ - SMC proves that really anyone(!) can start a Plutuscoin/Bitcoin based currency
+    (just look at the changes I applied to the original Plutuscoin source,
      for genesis block generation look at main.cpp)
  - allows me to experiment with coin parameters (in a private network)
 
 Finally, I only tested the command line server/tool 'smallchange' for the
 first 30 blocks. Credits go to the original authors/communities that
-created Bitcoin and Litecoin.
+created Bitcoin and Plutuscoin.
 
 Development process
 ===================
@@ -48,7 +48,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of Litecoin.
+official, stable release versions of Plutuscoin.
 
 Feature branches are created when there are major new features being
 worked on by several people.
